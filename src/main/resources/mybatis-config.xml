@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 配置资源  交给spring做   -->
+
+<!--    设置日志-->
+<!--    <settings>-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+<!--    </settings>-->
+    <typeAliases>
+        <typeAlias type="com.kuang.pojo.Books" alias="Books"></typeAlias>
+    </typeAliases>
+    <mappers>
+        <mapper class="com.kuang.dao.BookMapper"/>
+    </mappers>
+</configuration>
